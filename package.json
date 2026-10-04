@@ -1,0 +1,11 @@
+{
+  "name": "dsh-newpet", "version": "2.0.0", "type": "module",
+  "description": "Mars 的蓝色女仆鲸鱼娘桌宠：任务跟随、桌面唤起、余额和互动",
+  "author": "Mars", "license": "MIT", "main": "lib/index.js",
+  "exports": { ".": "./lib/index.js", "./client": "./lib/client.js", "./package.json": "./package.json", "./cordis.patch.yml": "./cordis.patch.yml" },
+  "files": ["lib", "assets", "desktop-pet/src", "desktop-pet/build.ps1", "desktop-pet/WhaleOverlay.exe", "cordis.patch.yml", "ASSET_PROVENANCE.md"],
+  "scripts": { "test": "node --test tests/*.test.mjs", "check": "node --check lib/index.js && node --check lib/client.js" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" }, "client": { "platform": "web", "inject": ["slots"] } },
+  "repository": { "type": "git", "url": "git+https://github.com/Mars-bbt/dsh-newpet.git" },
+  "keywords": ["deepseek-harness", "desktop-pet", "whale-girl"]
+}

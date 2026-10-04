@@ -1,0 +1,110 @@
+{
+  "author": "Mars",
+  "license": "MIT",
+  "tool": "OpenAI built-in image_gen",
+  "generatedOn": "2026-10-04",
+  "oldProjectArtworkUsed": false,
+  "promptSet": {
+    "characterSpecification": "原创可爱 Q 版人形鲸鱼娘，深蓝色头发、深蓝色女仆装、白色围裙、鲸鱼发饰和尾巴。保持各姿态同一角色，完整身体，透明背景，无文字或水印。",
+    "variantInvariants": "以本次新生成的待机角色为参考，保留人物身份、深蓝色配色、服装、鲸鱼围裙图案和绘画风格，只改变指定的姿态和表情。",
+    "workFinalEditVerbatim": "Local precise edit of EYES AND HEAD ONLY. This girl is working at her laptop. She must visibly look at the laptop SCREEN, located BELOW and to the RIGHT in the image. Currently she appears to look at the viewer; FIX THAT. Move both irises and pupils far toward the LOWER RIGHT corners of their eye openings, creating a clear downward-right gaze, with more white visible above and to the left. Lower the upper eyelids slightly for focused eyes, do not close them. Turn face three-quarter toward the laptop (image right) and tip chin down a little. Sightline must point into the screen immediately above her typing hands, not toward the audience. Preserve every other feature exactly: navy maid dress, navy hair, whale hair clip, whale apron emblem, laptop whale emblem, hands typing, seated pose, full body, transparent background. No text. Do not redesign character."
+  },
+  "assets": [
+    {
+      "pose": "idle",
+      "file": "generated/idle.png",
+      "generationFile": "exec-bf5bd369-e477-4338-80cf-874809c18072.png",
+      "sha256": "0d3644b9ff3eb464fe4f3aa5aa64455038479ed1301e37a2405e5750a7029940",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "待机，站立微笑，围裙上添加可爱的鲸鱼图案。"
+    },
+    {
+      "pose": "work",
+      "file": "generated/work.png",
+      "generationFile": "exec-cc1779dd-dc50-401d-9e2f-eb93435ac963.png",
+      "sha256": "2d86462633a36c10fdfe829a8eba050d94c4b932a11e02d28221a5dd0077e2dd",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "坐着打字，笔记本背面和围裙都有鲸鱼图案；头低下，眼睛朝电脑屏幕看。"
+    },
+    {
+      "pose": "thinking",
+      "file": "generated/thinking.png",
+      "generationFile": "exec-d2e1fd0a-536a-462d-9443-19edce05edf9.png",
+      "sha256": "743d6ea6ed41b0fcc539565ac7fc0725cb52c85cad87ea60de5d7517b8bbf52f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "思考，手指轻放下巴。"
+    },
+    {
+      "pose": "success",
+      "file": "generated/success.png",
+      "generationFile": "exec-3bb04a20-9524-486b-8b53-7b64b1b547e0.png",
+      "sha256": "f94fca72a14ac1f277253cae3bd9f5eabf8c37a3a3aa739bb5f2a403adda8ddc",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "成功，微笑并竖起拇指。"
+    },
+    {
+      "pose": "failure",
+      "file": "generated/failure.png",
+      "generationFile": "exec-f07fe338-c929-46f0-90f6-fc5be25c3a44.png",
+      "sha256": "b300be76eeb811a74028ea20ec1e77c8096df7c0fd6787090beb6cbbaea35fd9",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "出错，担心的表情，双手在胸前。"
+    },
+    {
+      "pose": "celebrate",
+      "file": "generated/celebrate.png",
+      "generationFile": "exec-ef42d647-2f9c-458a-b93b-ec05bd5fcecd.png",
+      "sha256": "dc91cb1c084c452768816cb572c90463dba914522efced82c93846ae40ce325d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "庆祝，双手举起，快乐地抬起一条腿。"
+    },
+    {
+      "pose": "sleep",
+      "file": "generated/sleep.png",
+      "generationFile": "exec-9ddb0d24-6e9d-4593-bd64-32e561d2940e.png",
+      "sha256": "566d10fd582ded2e7eaff1e412c3af8024c26fcff5761959e9151c000ed7a915",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "睡觉，闭眼抱着鲸鱼玩偶。"
+    },
+    {
+      "pose": "interact",
+      "file": "generated/interact.png",
+      "generationFile": "exec-a83d6f2c-5576-4ba5-98d5-6ce73ef30c70.png",
+      "sha256": "8b9d1f99bd283103f401f3c26353038311023997962b7f6a78495d0f6b49893c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "transparent": true,
+      "poseSpecification": "互动，挥手并眨眼。"
+    }
+  ]
+}
